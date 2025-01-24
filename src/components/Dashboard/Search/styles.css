@@ -1,0 +1,33 @@
+.search-flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 3rem;
+    color: var(--grey);
+    background-color: var(--darkgrey);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+    border-radius: 3rem;
+}
+
+.search-flex:hover {
+    border: 1px solid var(--blue);
+    transition: all 0.3s;
+}
+
+.search-flex input {
+    background-color: var(--darkgrey);
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    color: var(--grey);
+    border: none;
+}
+
+.search-flex input:focus {
+    outline: none;
+}

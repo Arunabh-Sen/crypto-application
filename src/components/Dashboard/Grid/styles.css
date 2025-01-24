@@ -1,0 +1,126 @@
+.grid-container {
+  width: 330px;
+  height: 330px;
+  background-color: var(--darkgrey);
+  border: 2px solid var(--darkgrey);
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+.grid-container:hover {
+    border-color: #5b8a56;
+    transition: all 0.3s;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 1px #5b8a56;
+    transition: all 0.2s;
+}
+
+.grid-container-red:hover {
+    border-color: var(--red) !important;
+    transition: all 0.3s;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 1px var(--red) !important;
+    transition: all 0.2s;
+}
+
+.info-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.coin-logo {
+  height: 3.5rem;
+  width: 3.5rem;
+  gap: 1rem;
+  margin: 1.5rem;
+}
+
+.name-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.coin-symbol {
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.coin-name {
+  color: var(--grey);
+  text-transform: capitalize;
+  font-weight: light;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.chip-flex {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+  margin: 0 1.5rem;
+}
+
+.price-chip {
+  border: 2px solid #5b8a56;
+  border-radius: 2rem;
+  padding: 0.35rem 1.25rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #568a5a;
+}
+
+.price-chip:hover, .icon-chip:hover {
+    background-color: #5b8a56;
+    color: var(--white);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.chip-red {
+  border: 2px solid var(--red) !important;
+  color: var(--red) !important;
+}
+
+.chip-red:hover {
+    background-color: var(--red) !important;
+    color: var(--white) !important;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.icon-chip {
+  border: 2px solid #5b8a56;
+  border-radius: 50%;
+  height: 2rem !important;
+  width: 2rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  color: #568a5a;
+}
+
+.info-container {
+    margin: 1.5rem;
+}
+
+.coin-price {
+    color: #5b8a56;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.total-volume {
+    color: var(--grey);
+    font-size: 0.85rem;
+    font-weight: 500;
+}
