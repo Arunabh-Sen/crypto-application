@@ -38,11 +38,4 @@ https://github.com/user-attachments/assets/58fd9334-cc76-435d-9867-e7a9c14b6fc9
 
 
 🔗 Live Demo
-(If deployed, add your Netlify/Vercel link here)
-
-💡 Future Improvements
-Dark mode support 🌙
-
-More in-depth analytics & filtering options 🔍
-
-User authentication for portfolio tracking 🛠
+https://as07-crypto-application.netlify.app/
